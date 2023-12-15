@@ -15,3 +15,4 @@ Look in the scripts directory for different scenarios like setup, adding a node 
 9. On Node 1, Run `scripts/validator_1/4_collect_getx.sh`
 10. Copy the new gensis file to Node 2
 11. Start Node 1
+12. Start Node 2 with `chihuahuad start --p2p.persistent_peers="44a20dc022077fc574e700d1db25405e592b2bf8@52.52.188.228:26656"`
