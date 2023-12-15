@@ -6,9 +6,11 @@ Look in the scripts directory for different scenarios like setup, adding a node 
 
 ## If you just want to join the existing testnet look at `scripts/peer_setup`
 
-Come to the testnet channel in discord to get some testnet tokens.
+Come to the testnet channel in discord to get some testnet tokens.  
 
-- To setup a new testnet from scratch including configuring validators:
+
+### To setup a new testnet from scratch including configuring validators: 
+
 1. On Node 1, Run `scripts/validator_1/1_setup_validator.sh`
 2. On Node 2, Run `scripts/validator_2/scripts/1_setup_validator.sh` which will initialize the node and create an address
 3. On Node 1, Add the newly created address from Node 2 to `scripts/validator_1/2_add_node_2_genesis_account.sh`
