@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# careful now...
+# rm -rf ~/.chihuahuad/
+
 # init the node
 chihuahuad init testnet-node-1 --chain-id testnet-6-0 -o
 
