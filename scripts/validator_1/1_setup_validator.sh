@@ -21,8 +21,4 @@ chihuahuad genesis add-genesis-account $(chihuahuad keys show user1 -a) 10000000
 # fund the validator account with some tokens
 chihuahuad genesis add-genesis-account $(chihuahuad keys show validator1 -a) 1000000000stake,10000000000huahua
 
-# # fund account for node 2 - must be created first
-# chihuahuad genesis add-genesis-account $NODE2_ADDRESS 1000000000stake,10000000000huahua
-
-# run gentx on other nodes if needed
-# see subsequent scripts
+# Now we need to create node 2 and get an account for it
