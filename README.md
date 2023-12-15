@@ -10,6 +10,8 @@ Look in the scripts directory for different scenarios like setup, adding a node 
 4. On Node 1, Run `scripts/validator_1/2_add_node_2_genesis_account.sh`
 5. Copy `~/.chihuahuad/config/genesis.json` from Node 1 to Node 2
 6. On Node 2, Run `scripts/validator_2/2_create_gentx.sh`
-7. Copy newly created genesis transaction from Node 2 to `~/chihuahuad/config/gentx/SOMENAME` on Node 1 
-8. On Node 1, Run `scripts/validator_1/3_add_local_gentx.sh`
+7. On Node 1, Run `scripts/validator_1/3_add_local_gentx.sh` 
+8. Copy newly created genesis transaction from Node 2 to `~/chihuahuad/config/gentx/SOMENAME` on Node 1 
 9. On Node 1, Run `scripts/validator_1/4_collect_getx.sh`
+10. Copy the new gensis file to Node 2
+11. Start Node 1
