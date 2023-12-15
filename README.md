@@ -4,8 +4,9 @@
 
 Look in the scripts directory for different scenarios like setup, adding a node to a running testnet etc.
 
-- If you just want to join the existing testnet look at `scripts/peer_setup`. You will also need to come to the discord to get some testnet tokens.
+## If you just want to join the existing testnet look at `scripts/peer_setup`
 
+Come to the testnet channel in discord to get some testnet tokens.
 
 - To setup a new testnet from scratch including configuring validators:
 1. On Node 1, Run `scripts/validator_1/1_setup_validator.sh`
