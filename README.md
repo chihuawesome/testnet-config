@@ -1,13 +1,12 @@
 # Chihuahua testnet-config
 
-## A bunch of scripts to setup and run a chihuahua testnet.
+### A bunch of scripts to setup and run a chihuahua testnet.
 
 Look in the scripts directory for different scenarios like setup, adding a node to a running testnet etc.
 
 ## If you just want to join the existing testnet look at `scripts/peer_setup`
 
 Come to the testnet channel in discord to get some testnet tokens.  
-
 
 ### To setup a new testnet from scratch including configuring validators: 
 
