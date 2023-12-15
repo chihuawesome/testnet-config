@@ -19,7 +19,7 @@ chihuahuad genesis add-genesis-account $(chihuahuad keys show user1 -a) 10000000
 chihuahuad genesis add-genesis-account $(chihuahuad keys show validator1 -a) 1000000000stake,10000000000huahua
 
 # fund account for node 2 - must be created first
-chihuahuad genesis add-genesis-account chihuahua1cgwvelnewq5ugdu9yw5tedd6rn9ngfj5vssx8c 1000000000stake,10000000000huahua
+chihuahuad genesis add-genesis-account chihuahua1spdjzdsz2utqgwmpmctz63adcyyt6utv7aklwl 1000000000stake,10000000000huahua
 
 # fund account for local/laptop - must be created first
 chihuahuad genesis add-genesis-account chihuahua1apf6685wrsdse9ag9vh39md0eqdn5wuaeerxgm 1000000000stake,10000000000huahua
